@@ -9,7 +9,7 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count(board)
+ # turn_count(board)
   player = ""
   moves = turn_count(board)
   if moves.even? 
